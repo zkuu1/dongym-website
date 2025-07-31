@@ -17,7 +17,7 @@ export default function Navbar() {
             <div className="hidden md:flex md:items-center md:justify-center md:gap-5">
                 <a aria-current="page"
                     className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-white transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-                    href="#">Home</a>
+                    href="/">Home</a>
                 <a className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-white transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
                     href="#">Hit The Muscle</a>
                 <a aria-current="page"
@@ -28,7 +28,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center justify-end gap-3">
                 <a className="hidden items-center justify-center rounded-xl  px-3 py-2 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 transition-all duration-150 hover:bg-purple-200 sm:inline-flex"
-                    href="/login">Sign in</a>
+                    href="/signup">Sign in</a>
                 <a className="inline-flex items-center justify-center rounded-xl bg-white px-3 py-2 text-sm font-semibold text-base_purple shadow-sm transition-all duration-150 hover:bg-purple-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                     href="/login">Login</a>
             </div>
