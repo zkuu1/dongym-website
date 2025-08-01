@@ -1,7 +1,7 @@
 // components/HeroSection.tsx
 import Image from "next/image";
 import Link from "next/link";
-import hero from "../images/hero.png";
+import hero from "../images/Hero.png";
 
 const HeroSection = () => {
   const navItems = [
